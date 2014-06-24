@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First App</title>
+
+    <!-- css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="google-code-prettify/src/prettify.css">
+
+	<!-- javascript -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="google-code-prettify/src/prettify.js"></script>
+	<script src="js/app.js"></script>
+
+  </head>
+  <body class="">
+	<div class="row ">
+		<div class="col-md-3 ">
+			<ul class="nav nav-pills nav-stacked">
+		    	<li class="active"><a href="#" >JSON</a></li>
+		    	<li><a href="#" >REST</a></li>
+		    	<li><a href="#" >CSS3</a></li>
+		    </ul>
+		</div>
+		
+	    <div class="col-md-9 " id="main">
+	    	<div class="panel">
+		    	<div class="panel">
+			    	<button class='btn btn-sm btn-default' id="btn-pretty">pretty</button>
+			    </div>
+				<textarea style="width:100%;height:300px;" id="code"></textarea>
+				<div class="panel">
+					<pre class="prettyprint" id="result">
+					</pre>
+				</div>
+			</div>
+			<div class="panel hide">
+		    	json2
+			</div>
+			<div class="panel hide">
+		    	json3
+			</div>
+	    </div>
+	    
+	</div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+	padding: 10px;
+}
+
+.fitheight {
+	height: 100%;
+}
+
+#mainFrame {
+	border: 0;
+	width: 100%;
+}
